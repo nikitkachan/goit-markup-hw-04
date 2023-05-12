@@ -305,8 +305,6 @@ body {
 .team-text {
   padding-top: 32px;
   padding-bottom: 32px;
-  padding-right: 16px;
-  padding-left: 16px;
 }
 
 .team-list {
@@ -354,7 +352,8 @@ body {
 
 .social-icons-list {
   display: flex;
-  column-gap: 24px;
+  justify-content: center;
+  gap: 24px;
 }
 
 .social-icon-link {
@@ -407,7 +406,6 @@ body {
 .footer-container {
   display: flex;
   align-items: baseline;
-  gap: 120px;
 }
 
 .social-links-footer .social-icons-list {
@@ -428,6 +426,7 @@ body {
 .social-media-title {
   margin-bottom: 16px;
   color: var(--primary-text-color-light);
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -454,6 +453,10 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color-light);
+}
+
+.logo-message-footer {
+  margin-right: 120px;
 }
 
 /* portfolio */
